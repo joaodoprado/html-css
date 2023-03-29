@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@font-face {
+    font-family: iDroid;
+    src: url('fontes/idroid.otf') format('opentype');
+}
+header {
+    background-image: linear-gradient(to bottom, rgb(20, 170, 20), rgba(0, 0, 0, 0.656));
+    color: white;
+    text-align: center;
+    padding: 1px;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-shadow: 1px 1px 5px black;
+}
+
+menu {
+    text-align: left;
+}
+
+menu > a {
+    text-decoration: none;
+    color: lightgreen;
+    padding: 12px 10px 16px 10px;
+    margin: 1px;
+    border-radius: 5px;
+}
+
+menu > a:hover {
+    background-color: rgba(144, 238, 144, 0.574);
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgreen;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    width: 800px;
+    padding-top: 0.5px;
+    border-radius: 5px;
+}
+
+section > h2 {
+    font-family: iDroid;
+    text-align: left;
+    
+}
+aside > h3{
+    font-family: iDroid;
+    background-image: linear-gradient(to right, lightgreen, white);
+    text-align: left;
+}
+
+strong {
+    color: darkgreen;
+}
+
+p > a {
+    background-color: lightgreen;
+    color: darkgreen;
+    text-decoration: none;
+}
+
+img#move {
+    padding-left: 250px;
+    
+}
+ main > div {
+    background-color: white;
+    
+}
+ul {
+    background-color: lightgreen;
+    margin: auto;
+    border-radius: 0px 0px 5px 5px;
+    width: 700px;
+    padding-top: 10px;
+}
+p.fim {
+    margin-left: 10px;
+    background-color: rgba(0, 128, 0, 0.767);
+    color: white;
+    width: 720px;
+    margin: auto;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+table {
+    text-align: justify;
+    text-decoration: underline;
+}
+td {
+    padding-right: 200px;
+}
+p {
+    text-indent: 30px;
+}
+footer{
+    background-color: darkgreen;
+    margin: auto;
+    color: white;
+}
+strong.end {
+    color: white;
+
+}
+p.pe {
+    text-align: center;
+    font-size: 12px;
+}

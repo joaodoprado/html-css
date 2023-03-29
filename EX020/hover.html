@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+        body {
+            background-color: pink;
+        }
+        div {
+            font-weight: bolder;
+        }
+        div > p {
+            display: none;
+        }
+        div:hover {
+            color: pink;
+        }
+        div:hover > p {
+            display: block;
+            color: white;
+            background-image: linear-gradient(to left, pink, rgb(251, 0, 0));
+            text-align: center;
+            font-family: Love Light;
+            font-size: 150px;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mistério</h1>
+    <p>Existe um texto escondido nesta página!</p>
+    <div>
+        Passe o mouse aqui e tenha uma surpresa
+        <p>Te amo❤️</p>
+    </div>
+    <p>Se gostou dá um beijo aqui</p>
+</body>
+</html>

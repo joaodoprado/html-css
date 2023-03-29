@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        header {
+            color: white;
+            text-align: left;
+            margin-bottom: 10px;
+            margin-right: 5px;
+            margin-left: 5px;
+            padding: 1px;
+        }
+        body {
+           background-image: linear-gradient(to right, lightblue, rgb(35, 141, 217));
+           margin: 0;
+        }
+        main {
+            background-color: white;
+            width: 600px;
+            text-align: left;
+            margin: auto;
+            box-shadow: 5px 5px 5px grey;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        article > aside {
+            background-color: lightgray;
+        }
+        nav > a {
+            color: white;
+            text-decoration: none;
+            background-color: blue;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Notícias</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ipsam voluptatum doloribus consectetur dolorem non eligendi provident corrupti dolores sint cum, recusandae adipisci iusto rem inventore quisquam tempora labore odio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur fugiat ut vel doloremque dignissimos distinctio repellendus, optio temporibus aliquid? Aut minus quisquam sed quae eos facere voluptate odit vero veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ex iste facilis reprehenderit accusamus illum ducimus impedit earum possimus dolore quod magni, repudiandae autem nisi corporis, natus tempore adipisci excepturi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate rem placeat nam aliquam, ratione sint provident quia, ab in quod doloribus distinctio, vel aspernatur aperiam est quo esse deserunt eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus rerum ratione neque quia, quaerat officia porro dolor adipisci esse veritatis similique laboriosam harum maiores ea nobis vero suscipit, odit repudiandae.</p>
+                <aside>
+                    <p>Artigo escrito por fulano de tal.</p>
+                </aside>
+            </article>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi natus id quam doloremque porro officiis deleniti aut, recusandae sunt, modi soluta eligendi laborum expedita! Necessitatibus, accusamus odio. Quasi, earum magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi odio consequatur quae eligendi, ab soluta a similique architecto, ex ducimus nemo illo alias? Delectus voluptatem eligendi nemo obcaecati labore magnam.</p>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por João</p>
+    </footer>
+
+</body>
+</html>
