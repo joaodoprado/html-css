@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-<a href="https://joaodoprado.github.io/html-css/desafios/d010-2/index.html"> Executar o desafio 10 </a>
+<a href="https://joaodoprado.github.io/html-css/desafios/d010-2/index.html"> Executar o desafio 10   </a>
