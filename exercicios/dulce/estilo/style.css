@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&display=swap');
+
+:root {
+    --fonte1: 'Great Vibes', cursive;
+    --fonte2: 'Alkatra', cursive;
+    --fonte3: Verdana, Geneva, Tahoma, sans-serif;
+
+    --cor1: #ffea2b;
+    --cor2: #5b528d;
+    --cor3: #70A0AF;
+    --cor4: #331E38;
+    --cor5: #100B00;
+
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: var(--fonte3);
+}
+
+header {
+    background-color: var(--cor1);
+    color: var(--cor2);
+}
+
+header > h1 {
+    font-family: var(--fonte2);
+    text-align: center;
+    font-size: 10vh;
+    padding: 0px;
+}
+
+header > p {
+    font-family: var(--fonte1);
+    text-align: center;
+    font-size: 5vh;
+}
+
+nav {
+    padding-bottom: 10px;
+}
+
+nav > a {
+    padding: 10px;
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+nav > a:hover {
+    background-color: var(--cor4);
+    transition-duration: 0.5s;
+    border-radius: 5px;
+}
