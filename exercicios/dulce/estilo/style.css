@@ -22,10 +22,6 @@
     margin: 0px;
 }
 
-body {
-    font-family: var(--fonte3);
-}
-
 header {
     background-color: var(--cor1);
     color: var(--cor2);
@@ -58,4 +54,14 @@ nav > a:hover {
     background-color: var(--cor4);
     transition-duration: 0.5s;
     border-radius: 5px;
+    color: white;
+}
+
+body {
+    font-family: var(--fonte3);
+    background-color: var(--cor4);
+}
+
+section > h2 {
+    
 }
