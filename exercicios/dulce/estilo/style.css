@@ -9,11 +9,11 @@
     --fonte2: 'Alkatra', cursive;
     --fonte3: Verdana, Geneva, Tahoma, sans-serif;
 
-    --cor1: #ffea2b;
-    --cor2: #5b528d;
-    --cor3: #70A0AF;
-    --cor4: #331E38;
-    --cor5: #100B00;
+    --cor1: #DB504A;
+    --cor2: #E3B505;
+    --cor3: #4F6D7A;
+    --cor4: #56A3A6;
+    --cor5: #084C61;
 
 }
 
@@ -23,8 +23,8 @@
 }
 
 header {
-    background-color: var(--cor1);
-    color: var(--cor2);
+    background-color: var(--cor3);
+    color: var(--cor1);
 }
 
 header > h1 {
@@ -47,7 +47,7 @@ nav {
 nav > a {
     padding: 10px;
     text-decoration: none;
-    color: var(--cor2);
+    color: var(--cor1);
 }
 
 nav > a:hover {
@@ -59,9 +59,40 @@ nav > a:hover {
 
 body {
     font-family: var(--fonte3);
-    background-color: var(--cor4);
+    background-color: var(--cor5);
 }
 
-section > h2 {
-    
+main {
+    background-color: white;
+    margin: auto;
+    width: 80vw;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px black;
+    text-align: left;
+}
+
+section > p {
+    padding-left: 40px;
+}
+
+a.rec1 {
+    font-size: 2em;
+    text-decoration: none;
+    color: var(--cor2);
+    padding-left: 40px;
+}
+
+a.rec {
+    font-size: 2em;
+    text-decoration: none;
+    color: var(--cor2);
+    padding-left: 40px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
 }
